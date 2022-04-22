@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+body, form{
+	font-family: Roboto, RobotoDraft, Helvetica, Arial, sans-serif;
+		background-color: rgb(184, 219,231);
+}
+.container{
+	display: flex;
+	flex-direction: column;
+}
+.form-header{
+	margin-top: 12px;
+	background-color: #fff;
+	border: 1px solid #dadce0;
+	border-radius: 8px;
+	margin-bottom: 14px;
+	margin-left:22%;
+	margin-right: 22%;
+	padding: 24px;
+	padding-top: 22px;
+	position: relative;
+	color: #202124;
+}
+#head-color{
+	background-color: rgb(7,92,148);
+	color: rgba(255, 255, 1);
+	border-top-left-radius: 8px;
+	border-top-right-radius: 8px;
+	height: 10px;
+	left: -1px;
+	position: absolute;
+	top: -1px;
+	width: calc(100% + 2px);
+}
+.title-row{
+	display: flex;
+	flex-wrap: wrap;
+	-moz-box-align: center;
+	align-items: center;
+	justify-content: space-between;
+}
+.title-header{
+	font-family: 'Google san',Roboto, Helvestica, Arial, sans-serif;
+	box-sizing: border-box;
+	font-size: 32px;
+	font-weight: 400;
+	color: #202124;
+	line-height: 135%;
+	max-width: 100%;
+	min-width: 0%;
+}
+.form-description{
+	font-family: Roboto,Arial,sans-serif;
+	font-size: 14PX;
+	font-weight: 400;
+	color: #202124;
+}
+.hr-line{
+	border-top: 1px solid #dadce0;
+	left: 0;
+	position: absolute;
+	width: 100%;
+}
+.header-footer{
+	color: #5f6368;
+	overflow-wrap: break-word;
+}
+
+.account{
+	margin-top: 30px;
+	font-family: Roboto, Arial, sans-serif;
+	font-size: 14px;
+	font-weight:400;
+	letter-spacing: .2px;
+	line-height: 20px;
+	color: #5f6368;
+}
+.email-save{
+	display: flex;
+	margin-top: 12px;
+	font-family: Roboto, Arial, sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+	letter-spacing: .2px;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+}
+.switch-accountheader{
+	display: flex;
+	overflow-wrap: break-word;
+	width: 75%;
+	margin-top: 10px;
+}
+.switch-acount{
+	color: #101111;
+	text-decoration: none;
+	white-space: nowrap;
+}
+.emailAddress{
+	font-weight: 700;
+	letter-spacing: 200;
+	outline-color: red;
+}
+.subtext{
+	white-space: nowrap;
+}
+.switch-accountlink{
+	color: #1a73e8;
+	text-decoration: none;
+	white-space: nowrap;
+	margin-left: 10px;
+}
+.requiredLegend{
+	color: #d93025;
+	font-family: Roboto, Arial, sans-serif;
+	font-size: 20px;
+	font-weight: 400;
+	letter-spacing: .2px;
+	line-height: 20px;
+	margin-top: 20px;
+}
+.form-description{
+	line-height: 20px;
+
+}
+.name{
+	display: flex;
+}
+#full-name{
+	background-color: #fff;
+	justify-content: center;
+	margin: 30px;
+	
+
+}
